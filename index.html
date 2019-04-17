@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Franquias e Parceiros</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+
+<body>
+<form action="">
+        <label>Sul</label>
+        <input class="cb" type="checkbox" name="1" id="1" value="1" onclick="return itemSelect(this)" onchange="cbChange(this)" />
+        <label>Sudeste</label>
+        <input class="cb" type="checkbox" name="2" id="2" value="2" onclick="return itemSelect(this)" onchange="cbChange(this)" />
+        <label>Centro-Oeste</label>
+        <input class="cb" type="checkbox" name="3" id="3" value="3" onclick="return itemSelect(this)"  onchange="cbChange(this)"/>
+        <label>Norte / Nordeste</label>
+        <input class="cb" type="checkbox" name="4" id="4" value="4" onclick="return itemSelect(this)" onchange="cbChange(this)" />
+</form>
+
+    <div class="item-1 item-option" style="display:none">Nenhuma filial cadastrada</div>
+    <div class="item-2 item-option" style="display:none">
+        <p>MINAS GERAIS:
+            Gustavo Salume (gustavo@dronekids.com.br) - (31) 99955-5481</p>
+        <p>RIO DE JANEIRO E MINAS GERAIS:
+            Flavio de Oliveira (flavio@dronekids.com.br) – (21) 98113-2694</p>
+        <p>SÃO PAULO:
+            Julio Vera (adm@webtecno.com.br) – (11) 97102-3233</p>
+        <p>SÃO PAULO:
+            Luis Marcio Tadeu Hachebe (hachebe@gmail.com) – (11) 98587-5444</p>
+        <p>SÃO JOSÉ DOS CAMPOS:
+            Diego Henrique da Silva (diegohenr@gmail.com) – (12) 99182-4990</p>
+        <p>SÃO JOSÉ DOS CAMPOS:
+            Rodrigo Abranches Chelou (rodrigochelou@gmail.com) – (12) 98195-6399</p>
+    </div>
+    <div class="item-3 item-option" style="display:none">Nenhuma filial cadastrada!</div>
+    <div class="item-4 item-option" style="display:none">Nenhuma filial cadastrada!</div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
